@@ -1,0 +1,22 @@
+# Node.js modules
+node_modules/
+
+# Логи npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Вихідні збірки
+dist/
+css/style.css
+
+# Налаштування редакторів
+.vscode/
+.idea/
+
+# Системні файли macOS/Windows
+.DS_Store
+Thumbs.db
+
+# ENV-файли з секретами
+.env
