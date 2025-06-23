@@ -3,14 +3,79 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- Підключаємо Tailwind CSS через CDN -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Document</title>
+		<!-- Підключаємо Tailwind CSS через CDN -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>LAMBORGHINI</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
+		<header class="header pt-[25px] absolute left-0 right-0">
+			<div class="container">
+				<nav class="flex justify-between">
+					<ul
+						class="flex gap-x-[40px] pt-[25px] pl-[25px] menu-left text-[#363636]"
+					>
+						<li class="menu-item">
+							<a href="#" class="menu-link">О гонке</a>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Трек</a>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Lamborghini Super trofeo</a>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Новости</a>
+						</li>
+					</ul>
+					<a href="#" class="logo">
+						<img class="logo-img" src="images/logo.svg" alt="logo" />
+					</a>
+					<ul class="flex gap-x-[40px] pt-[25px] pr-[80px] menu-right">
+						<li class="menu-item">
+							<a href="#" class="menu-link">Купить билеты</a>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Смотреть онлайн</a>
+						</li>
+						<li class="menu-item">
+							<a href="#" class="menu-link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<section class="promo">
+				<div class="container">
+					<div class="flex flex-col text-center pt-[120px] promo__inner">
+						<h1
+							class="title uppercase font-normal text-7xl tracking-[0.08em] ml-3 max-md:text-sm"
+						>
+							LAMBORGHINI SUPER TROFEO
+						</h1>
+						<h2 class="subtitle text-5xl font-normal mb-[10px] pt-1">
+							Гранд-финал 2022
+							<span class="text-4xl block py-[10px]">3-6 ноября</span>
+						</h2>
+						<p class="promo__text text-base mb-[10px]">
+							автодром Портимао,Португалия
+						</p>
+						<a href="#" class="promo__arrow mx-auto mt-auto mb-[30px]">
+							<img src="./images/arrov.svg" alt="arrow" />
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
 		<script src="js/main.js"></script>
 	</body>
 </html>
