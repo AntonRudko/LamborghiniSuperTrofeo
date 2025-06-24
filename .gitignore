@@ -8,7 +8,6 @@ yarn-error.log*
 
 # Вихідні збірки
 dist/
-css/style.css
 
 # Налаштування редакторів
 .vscode/

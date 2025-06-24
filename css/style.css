@@ -1,0 +1,75 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@font-face {
+	font-family: 'Impact', sans-serif;
+	src: url(../fonts/impact.woff2);
+}
+
+html {
+	/*  */
+	box-sizing: border-box;
+}
+body {
+	color: #040404;
+	font-size: 14px;
+	line-height: 1.2;
+	font-weight: 400;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+/*  */
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.header {
+	background: var(
+		--gradient-light,
+		linear-gradient(180deg, #d8d4ca 0%, rgba(217, 217, 217, 0) 100%)
+	);
+}
+.container {
+	padding: 0 10px;
+	margin: 0 auto;
+	max-width: 1220px;
+}
+
+/* .menu-link {
+	color: #363636;
+	font-size: 16px;
+} */
+.promo {
+	background-image: url(../images/promo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* звідки буде розтягуватися */
+	background-position: center;
+}
+.promo__inner {
+	min-height: 100vh;
+	/* background-image: url(../images/promo.jpg); */
+}
+
+.title {
+	font-family: 'Impact', sans-serif;
+	/* font-weight: 400; */
+	/* letter-spacing: 0.02em; tracking-wide */
+}
+.subtitle {
+	font-family: 'Impact', sans-serif;
+	align-self: center;
+	border-bottom: 1px solid #040404;
+}
+.subtitle span {
+	color: var(--Gold, #9f6b08);
+}
+.promo__text {
+	color: #363636;
+}
