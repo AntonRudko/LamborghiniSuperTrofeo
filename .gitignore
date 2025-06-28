@@ -19,3 +19,5 @@ Thumbs.db
 
 # ENV-файли з секретами
 .env
+
+index.html

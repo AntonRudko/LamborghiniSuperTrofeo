@@ -121,7 +121,128 @@ a {
 
 .track {
 	background-image: url(../images/track-bg.jpg);
+	/* background-color: #9f6b08; */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.evo {
+	font-size: 14px;
+	margin-bottom: 100px;
+}
+.evo-black {
+	background-color: #363636;
+	padding: 100px 0 50px;
+	color: #fff;
+}
+
+.evo-black__inner {
+	position: relative;
+}
+.evo-black__inner::before {
+	position: absolute;
+	content: '';
+	background-image: url(../images/dec-1.svg);
+	width: 185px;
+	height: 213px;
+	top: 210px;
+	left: -130px;
+}
+.evo-black__inner::after {
+	position: absolute;
+	content: '';
+	background-image: url(../images/dec-2.svg);
+	width: 498px;
+	height: 572px;
+	top: 290px;
+	left: -40px;
+}
+.evo-black__info {
+	display: flex;
+	justify-content: space-between;
+}
+.evo-block__title {
+	padding-right: 50px;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 300;
+}
+.evo-black__infobox {
+	flex-basis: 437px;
+}
+.evo-black__text {
+	font-size: 14px;
+	flex-basis: 437px;
+	margin-bottom: 30px;
+}
+.evo-black__img {
+	display: block;
+	margin: 170px auto 60px;
+	position: relative;
+	z-index: 1;
+}
+
+.evo__description-list {
+	display: flex;
+	justify-content: center;
+	gap: 0 65px;
+}
+.evo__description-list dd {
+	text-transform: uppercase;
+}
+
+.evo-white {
+}
+.evo-white__inner {
+	padding-top: 125px;
+	position: relative;
+}
+.evo-white__inner::before {
+	position: absolute;
+	content: '';
+	background-image: url(../images/dec-3.png);
+	background-repeat: no-repeat;
+	width: 272px;
+	height: 257px;
+	top: -40px;
+	left: 360px;
+}
+.evo-white__inner::after {
+	position: absolute;
+	content: '';
+	background-image: url(../images/dec-4.png);
+	background-repeat: no-repeat;
+	width: 324px;
+	height: 311px;
+	top: 115px;
+	left: 600px;
+}
+.evo-white__text {
+	margin-bottom: 30px;
+}
+.evo-white__text:first-child {
+	max-width: 285px;
+}
+.evo-white__text:nth-child(2) {
+	max-width: 435px;
+}
+.evo-white__text:nth-child(3) {
+	max-width: 590px;
+}
+.evo-white__wideo {
+	margin-top: 100px;
+	background-image: url(../images/evo-video.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 265px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.evo-white__wideo-link span {
+	display: block;
+	color: #fff;
 }
