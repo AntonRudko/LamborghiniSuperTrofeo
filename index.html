@@ -13,6 +13,10 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
@@ -68,7 +72,7 @@
 							<span class="text-4xl block py-3">3-6 ноября</span>
 						</h2>
 						<p class="promo__text text-base mb-3">
-							автодром Портимао,Португалия
+							автодром Портимао, Португалия
 						</p>
 						<a href="#" class="promo__arrow mx-auto mt-auto mb-7">
 							<img src="./images/arrov.svg" alt="arrow" />
@@ -138,9 +142,8 @@
 							</p>
 						</div>
 						<table
-							class="info__table basis-[450px] border-t-1 border-b-1 border-black"
+							class="info__table basis-[450px] border-y border-solid border-black"
 						>
-							<!-- border-y-4 -->
 							<tr>
 								<td class="pt-3">Этап 1:</td>
 								<td>Имола (Италия)</td>
@@ -198,7 +201,7 @@
 						<img
 							src="images/track.png"
 							alt=""
-							class="track__img mx-auto mt-auto mb-24"
+							class="track__img mx-auto mt-auto mb-20"
 						/>
 						<!-- block mt-60 mx-auto -->
 					</div>
@@ -293,7 +296,128 @@
 					</div>
 				</div>
 			</section>
+			<section class="blog mb-24">
+				<!-- mb-24 ???????? -->
+				<div class="main-container">
+					<h3 class="blog__title uppercase font-light mb-7 text-3xl">БЛОГ</h3>
+					<!-- Slider main container -->
+					<div class="blog__slider swiper relative pt-12 mb-24">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide blog__item">
+								<img
+									src="./images/blog-1.jpg"
+									alt="happy piople"
+									class="blog__item-img mb-5"
+								/>
+								<h4
+									class="blog__item-title uppercase text-xl font-normal mb-3 min-h-11"
+								>
+									НЕЛЬСОН ПИКЕ СТАЛ ПОБЕДИТЕЛЕМ ГРАНД-ФИНАЛА В ПОРТИМАНЕ
+								</h4>
+								<p class="blog__item-text mb-3">
+									Нельсон Пике-младший из Ansa Motorsports обеспечил возвращение
+									титула Lamborghini Super Trofeo Grand Finals в Северную
+									Америку впервые с 2017 года после победы и второе место в паре
+									50-минутных гонок на Autodromo Nacionale do Algarve в
+									Портимане.Между тем, титул Pro-Am был подорван, поскольку
+									Брайан Ортис и Себастьян Карасо...
+								</p>
+								<a href="" class="blog__item-link text-sm text-[#363636]"
+									>читать подробнее...</a
+								>
+							</div>
+							<div class="swiper-slide blog__item">
+								<img
+									src="./images/blog-2.jpg"
+									alt="happy piople"
+									class="blog__item-img mb-5"
+								/>
+								<h4
+									class="blog__item-title uppercase text-xl font-normal mb-3 min-h-11"
+								>
+									ГРАНД ФИНАЛ. ДЕНЬ 1
+								</h4>
+								<p class="blog__item-text mb-3">
+									Утренний дождь означал, что мокрая гонка была объявлена ​​до
+									старта, и перед большинством экипажей стоял выбор:
+									использовать слики или мокрые шины. Большинство участников
+									предпочли мокрую трассу, но поулист Спинелли начал гонку на
+									сликах и сразу же поплатился за это. Huracan № 61 опустился
+									вниз, заняв всего 28-е место, поскольку...
+								</p>
+								<a href="" class="blog__item-link text-sm text-[#363636]"
+									>читать подробнее...</a
+								>
+							</div>
+							<div class="swiper-slide blog__item">
+								<img
+									src="./images/blog-1.jpg"
+									alt="happy piople"
+									class="blog__item-img mb-5"
+								/>
+								<h4
+									class="blog__item-title uppercase text-xl font-normal mb-3 min-h-11"
+								>
+									НЕЛЬСОН ПИКЕ СТАЛ ПОБЕДИТЕЛЕМ ГРАНД-ФИНАЛА В ПОРТИМАНЕ
+								</h4>
+								<p class="blog__item-text mb-3">
+									Нельсон Пике-младший из Ansa Motorsports обеспечил возвращение
+									титула Lamborghini Super Trofeo Grand Finals в Северную
+									Америку впервые с 2017 года после победы и второе место в паре
+									50-минутных гонок на Autodromo Nacionale do Algarve в
+									Портимане.Между тем, титул Pro-Am был подорван, поскольку
+									Брайан Ортис и Себастьян Карасо...
+								</p>
+								<a href="" class="blog__item-link text-[#363636] text-sm"
+									>читать подробнее...</a
+								>
+							</div>
+							<div class="swiper-slide blog__item">
+								<img
+									src="./images/blog-2.jpg"
+									alt="happy piople"
+									class="blog__item-img mb-5"
+								/>
+								<h4
+									class="blog__item-title uppercase min-h-11 font-normal text-xl"
+								>
+									ГРАНД ФИНАЛ. ДЕНЬ 1
+								</h4>
+								<p class="blog__item-text mb-3">
+									Утренний дождь означал, что мокрая гонка была объявлена ​​до
+									старта, и перед большинством экипажей стоял выбор:
+									использовать слики или мокрые шины. Большинство участников
+									предпочли мокрую трассу, но поулист Спинелли начал гонку на
+									сликах и сразу же поплатился за это. Huracan № 61 опустился
+									вниз, заняв всего 28-е место, поскольку...
+								</p>
+								<a href="" class="blog__item-link text-[#363636] text-sm"
+									>читать подробнее...</a
+								>
+							</div>
+
+							<!-- ... -->
+						</div>
+						<!-- If we need pagination -->
+						<!-- <div class="swiper-pagination"></div> -->
+
+						<!-- If we need navigation buttons -->
+						<div class="blog__buttons swiper-button-left">
+							<img src="./images/arrov-left.svg" alt="" />
+						</div>
+						<div class="blog__buttons swiper-button-right">
+							<img src="./images/arrov-right.svg" alt="" />
+						</div>
+
+						<!-- If we need scrollbar -->
+						<!-- <div class="swiper-scrollbar"></div> -->
+					</div>
+				</div>
+			</section>
 		</main>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

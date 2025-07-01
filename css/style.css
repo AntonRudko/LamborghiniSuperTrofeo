@@ -114,12 +114,14 @@ a {
 	width: 100%;
 } */
 
-.info__table {
+/* .info__table {
 	border-top: 1px solid #040404;
 	border-bottom: 1px solid #040404;
-}
+} */
 
 .track {
+	display: block;
+	z-index: 1;
 	background-image: url(../images/track-bg.jpg);
 	/* background-color: #9f6b08; */
 	background-position: center;
@@ -245,4 +247,19 @@ a {
 .evo-white__wideo-link span {
 	display: block;
 	color: #fff;
+}
+/* .blog__slider {
+	position:
+} */
+.blog__buttons {
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	left: 50%;
+}
+.swiper-button-left {
+	transform: translateX(-41px);
+}
+.swiper-button-right {
+	transform: translateX(8px);
 }
